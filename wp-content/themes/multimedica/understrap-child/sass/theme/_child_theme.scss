@@ -1,0 +1,69 @@
+.entry-title a{
+	color: red;
+	font-family: $font-text-slab;
+	font-weight: bold;
+}
+div#navbarNavDropdown {
+    justify-content: flex-end;
+}
+#cover{
+	    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: url(http://localhost/wordpress/wp-content/uploads/2017/09/cover2.jpg);
+	padding:10em 0;
+}
+
+.wrapper {
+    /* padding: 30px 0; */
+    padding:0;
+}
+p{
+	font-family: $font-text;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: $velicina-tx;
+}
+#two_columns{
+	background: url(http://localhost/wordpress/wp-content/uploads/2017/09/two_columns.jpg);
+	padding:2em 0;
+	background-size: auto;
+    background-size: cover;
+}
+#three_buttons{
+	text-align: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: $boja-gumb;
+    border-color: $boja-gumb;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    font-size: 1.4em;
+	:hover{
+		 background-color: $boja-gumb-hover;
+
+	}
+
+}
+
+#ikonice_hover{
+
+	background: url(http://localhost/wordpress/wp-content/uploads/2017/09/ikonice_hover_bg.jpg);
+	background-size: auto;
+    background-size: cover;
+    font-size: $velicina-podnaslov;
+    font-family: $font-text-slab;
+   /* font-weight: bold;*/
+    color: #fff;
+    .kvadratici{
+    	border: 3px solid #29ABE2;
+    	
+    }
+} 
+.btn-primary{
+	font-size: $velicina-podnaslov;
+    font-family: $font-text-slab;
+        border-radius: 50px;
+}
