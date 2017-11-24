@@ -17,8 +17,8 @@
 
 			<?php dynamic_sidebar( 'hero' ); ?>
 
-			</div> 
-			
+			</div>
+
 			 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 			    
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>

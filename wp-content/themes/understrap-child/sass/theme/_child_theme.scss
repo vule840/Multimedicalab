@@ -6,15 +6,92 @@
 div#navbarNavDropdown {
     justify-content: flex-end;
 }
+body{
+  color: $font-boja;
+  font-family: $font-text;
+}
+h1.naslovna{
+  font-weight: lighter;
+  color: $font-plava-tamno; 
+
+}
+.navbar{
+  padding:1em 0;
+
+}
+h1{ 
+  font-family: $font-text-slab;
+  font-size: 4em;
+  
+}
+h2{ 
+  font-family: $font-text-slab;
+}
+b, strong {
+    
+    font-weight: 900;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1240px; } }
+/*********************  
+
+    NASLOVNA
+
+*****************************/
+
+#content{
+  font-weight: 100;
+  .btn-primary{
+    background: rgba( $font-plava-tamno, .7 );
+    border:none;
+    &:hover{
+      background: rgba( $font-boja-plava-hover, .7 );
+    }
+  }
+}
+.content1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content div,
+.content1 div,
+.content2 div {
+    height: 50%;
+    width: 50%;
+    border: 3px solid #29ABE2;
+    margin: 1em;
+    padding: 2em 0;
+}
 #cover{
 	    display: table;
     width: 100%;
     height: 100%;
     min-height: 100%;
-    background: url(http://localhost/wordpress/wp-content/uploads/2017/09/cover2.jpg);
-	padding:10em 0;
+    background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/11/Cover_home.jpg);
+	padding:0em 0;
+      background-repeat: no-repeat;
+    background-size: cover;
+   /*filter: brightness(50%);*/
 }
-
+.home #cover{
+     min-height: 900px;
+}
 .wrapper {
     /* padding: 30px 0; */
     padding:0;
@@ -25,14 +102,42 @@ p{
 	line-height: 1.6;
 	font-size: $velicina-tx;
 }
+.header{
+    padding:8em 0;
+}
+.header-page{
+    padding:3em 0;
+}
 #two_columns{
-	background: url(http://localhost/wordpress/wp-content/uploads/2017/09/two_columns.jpg);
-	padding:2em 0;
+	background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/two_columns.jpg);
+	padding: 5em 0;
 	background-size: auto;
-    background-size: cover;
+    background-size: cover;  
+    .btn-primary{
+    background: rgba( $font-plava-tamno, .7 );
+    border:none;
+    font-weight: bold;
+    &:hover{
+      background: rgba( $font-boja-plava-hover, .7 );
+    }
+  }
+}
+
+.home #two_columns{
+  p{
+    color: #333;
+  }
 }
 #three_buttons{
 	text-align: center;
+ .btn-primary{
+    background: rgba( $font-plava-tamno, .7 );
+    border:none;
+    font-weight: bold;
+    &:hover{
+      background: rgba( $font-boja-plava-hover, .7 );
+    }
+  }
 }
 .btn-primary {
     color: #fff;
@@ -47,10 +152,46 @@ p{
 	}
 
 }
+//slike hover u sredinit 
+#slike_hover{
 
+  
+  .card{
+    position:relative;
+      width: 50%;
+    h3{
+       position:absolute;
+       top: 50%;                         
+       transform: translate(0, -50%) ;
+       background: rgba(41, 171, 226,.7);;
+       width: 100%;
+       color: #fff;
+       font-family: $font-text-slab;
+      
+       
+    
+    
+    -moz-transition: 0.2s;
+    -ms-transition:  0.2s;
+    -o-transition:  0.2s;
+    -webkit-transition:  0.2s;
+    transition:  0.2s;
+
+       &:hover{
+        
+        bottom: 0%;
+        height: auto;
+   
+       }
+    }
+  }
+
+}
+
+//ikone hover
 #ikonice_hover{
-
-	background: url(http://localhost/wordpress/wp-content/uploads/2017/09/ikonice_hover_bg.jpg);
+    padding: 1em 0;
+	background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/ikonice_hover_bg.jpg);
 	background-size: auto;
     background-size: cover;
     font-size: $velicina-podnaslov;
@@ -59,11 +200,338 @@ p{
     color: #fff;
     .kvadratici{
     	border: 3px solid #29ABE2;
-    	
+    	padding:1em;
+        margin: 1em;
+    }
+    .card{
+        background:transparent;
+        border: 3px solid #29ABE2;
+        margin: 0.5em;
+    padding: 2em 0;
+        position: relative;
+        h3{
+           font-weight: 600;
+        }
+         &:hover{
+          background: $font-boja-plava-hover;
+          cursor: pointer;
+          color: $font-plava-tamno;
+          
+        }
+        .fa{
+          width: 35px;
+            position: absolute;
+            top: 12px;
+            left: 23px;
+        }
+        img{
+            width: 35px;
+            position: absolute;
+            top: 12px;
+            left: 23px;
+        }
     }
 } 
+
+
+
 .btn-primary{
 	font-size: $velicina-podnaslov;
     font-family: $font-text-slab;
         border-radius: 50px;
+        padding: 0.5em 2em;
+}
+
+
+/*
+*******************FOOTER
+*/
+#wrapper-footer{
+  background: #666;
+  color: #fff;
+
+  a{
+    color: #fff;
+    font-weight: bold;
+  }
+}
+#wrapper-footer-full{
+  padding: 3em 0;
+  background:#fff;
+}
+
+ul#menu-izbornik_footer {
+list-style-type: none;
+  li{
+    font-family: $font-text-slab;
+
+    font-size: 1.6em;
+    font-weight: 700;
+    a{
+      color: $font-plava-tamno;
+    }
+  }
+}
+#custom_html-4{
+  h4{
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
+  p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+  
+}
+/*
+*******************MEDICI
+*/
+
+#medici{
+  h3{
+    font-family: $font-text-slab;
+     color: $font-plava-tamno;
+  
+  }
+
+  h5{
+    font-family: $font-text-slab;
+     color: $font-plava-tamno;
+    font-weight: 100;
+  }
+}
+
+#medici2{
+  p{
+    font-family: $font-text-slab;
+    font-size: 1.4em;
+    font-weight: 300;
+     color: $font-plava-tamno;
+  }
+  .uno{
+    border: 1px solid $font-plava-tamno;
+  }
+}
+
+/*
+#card-hover{
+
+  .card{
+  
+    #accordion{
+    
+      position: relative;
+      top: 40%;
+      .card-header{
+        background:  rgba($font-boja-plava-prozirna, $alpha);
+      }
+    }
+  }
+}*/
+
+/*#pazienti{
+  background:url('../img/pazienti.jpg') no-repeat;
+  background-size:cover;
+}
+#aziende{
+  background:url('../img/pazienti.jpg') no-repeat;
+  background-size:cover;
+}
+#collaborazioni{
+  background:url('../img/pazienti.jpg') no-repeat;
+  background-size:cover;
+}
+#prenetale
+{
+  background:url('../img/pazienti.jpg') no-repeat;
+  background-size:cover;
+}
+
+
+#promozioni
+{
+  background:url('../img/pazienti.jpg') no-repeat;
+  background-size:cover;
+}*/
+
+.bg-dark{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b75bb+1,00adee+50,1b75bb+100 */
+background: #1b75bb; /* Old browsers */
+background: -moz-linear-gradient(left, #1b75bb 1%, #00adee 50%, #1b75bb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #1b75bb 1%,#00adee 50%,#1b75bb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #1b75bb 1%,#00adee 50%,#1b75bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b75bb', endColorstr='#1b75bb',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: $font-text-slab;
+    color: #fff;
+    font-weight: bold;
+}
+
+// **********  MEGAMENU*************//
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+
+  font-family: $font-text-slab;
+  font-size: 1.6em;
+  font-weight: bold;
+ /* border-bottom:2px solid white;*/
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link{
+  font-family: $font-text-slab;
+}
+/*
+#mega-menu-primary li.mega-menu-item a{
+   &:hover{
+        
+        border-bottom:2px solid white;
+   
+       }
+}*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 20%;
+  left: 0;
+ /* background-color: rgba(75,75,75,0.7);*/
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(36, 85, 165,0.5);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  /*text-transform: uppercase;*/
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.8em 0;
+   background: rgba(41, 171, 226,.7);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  background:none;
+}
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    /* text-transform: uppercase; */
+    color: #fff;
+    /*border: 1px solid #fff;*/
+    /* background-color: transparent; */
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-weight: 400;
+    /* margin: -52px 0 0 0; */
+    /* padding: 62px 100px; */
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect a.info:hover {
+ /* box-shadow: 0 0 5px #fff;*/
+}
+
+
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+   /* padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-220 > a.mega-menu-link{
+ /* padding-right:0;*/
+     margin-left: 8em;
+ padding-left:1em;
+  background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/11/face.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  background-position: center;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    
+    position: absolute;
+    top: -8px;
+    
+}
+
+#mega-menu-wrap-primary {
+   
+    padding-left: 14.1em;
 }
