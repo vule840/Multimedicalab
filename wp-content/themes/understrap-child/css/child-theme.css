@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=latin-ext");
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin-ext" rel="stylesheet');
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -9143,7 +9143,7 @@ a.skip-link {
 
 .entry-title a {
   color: red;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold; }
 
 div#navbarNavDropdown {
@@ -9154,18 +9154,21 @@ body {
   font-family: "Lato", sans-serif; }
 
 h1.naslovna {
-  font-weight: lighter;
-  color: #2455A5; }
+  font-weight: 300;
+  color: #00507D; }
 
 .navbar {
   padding: 1em 0; }
 
+a {
+  color: #00507D; }
+
 h1 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   font-size: 4em; }
 
 h2 {
-  font-family: "Roboto Slab", serif; }
+  font-family: "Lato", sans-serif; }
 
 b, strong {
   font-weight: 900; }
@@ -9201,7 +9204,7 @@ b, strong {
 #content {
   font-weight: 100; }
   #content .btn-primary {
-    background: rgba(36, 85, 165, 0.7);
+    background: rgba(0, 80, 125, 0.7);
     border: none; }
     #content .btn-primary:hover {
       background: rgba(41, 171, 226, 0.7); }
@@ -9231,7 +9234,7 @@ b, strong {
   /*filter: brightness(50%);*/ }
 
 .home #cover {
-  min-height: 900px; }
+  min-height: 100%; }
 
 .wrapper {
   /* padding: 30px 0; */
@@ -9241,13 +9244,15 @@ p {
   font-family: "Lato", sans-serif;
   text-align: justify;
   line-height: 1.6;
+  font-weight: 500;
   font-size: 1.2em; }
 
 .header {
   padding: 8em 0; }
 
 .header-page {
-  padding: 3em 0; }
+  padding: 3em 0;
+  color: #00507D; }
 
 #two_columns {
   background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/two_columns.jpg);
@@ -9255,7 +9260,7 @@ p {
   background-size: auto;
   background-size: cover; }
   #two_columns .btn-primary {
-    background: rgba(36, 85, 165, 0.7);
+    background: rgba(0, 80, 125, 0.7);
     border: none;
     font-weight: bold; }
     #two_columns .btn-primary:hover {
@@ -9267,9 +9272,12 @@ p {
 #three_buttons {
   text-align: center; }
   #three_buttons .btn-primary {
-    background: rgba(36, 85, 165, 0.7);
+    background: rgba(0, 80, 125, 0.7);
     border: none;
-    font-weight: bold; }
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-family: "Lato", sans-serif; }
     #three_buttons .btn-primary:hover {
       background: rgba(41, 171, 226, 0.7); }
 
@@ -9293,7 +9301,7 @@ p {
     background: rgba(41, 171, 226, 0.7);
     width: 100%;
     color: #fff;
-    font-family: "Roboto Slab", serif;
+    font-family: "Lato", sans-serif;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
@@ -9309,7 +9317,7 @@ p {
   background-size: auto;
   background-size: cover;
   font-size: 2em;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   /* font-weight: bold;*/
   color: #fff; }
   #ikonice_hover .kvadratici {
@@ -9323,11 +9331,11 @@ p {
     padding: 2em 0;
     position: relative; }
     #ikonice_hover .card h3 {
-      font-weight: 600; }
+      font-weight: 500; }
     #ikonice_hover .card:hover {
       background: #29ABE2;
       cursor: pointer;
-      color: #2455A5; }
+      color: #00507D; }
     #ikonice_hover .card .fa {
       width: 35px;
       position: absolute;
@@ -9341,7 +9349,7 @@ p {
 
 .btn-primary {
   font-size: 2em;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   border-radius: 50px;
   padding: 0.5em 2em; }
 
@@ -9362,41 +9370,43 @@ p {
 ul#menu-izbornik_footer {
   list-style-type: none; }
   ul#menu-izbornik_footer li {
-    font-family: "Roboto Slab", serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.6em;
-    font-weight: 700; }
+    font-weight: 500; }
     ul#menu-izbornik_footer li a {
-      color: #2455A5; }
+      color: #00507D; }
 
 #custom_html-4 h4 {
-  font-weight: bold;
+  font-weight: 500;
   padding-bottom: 1em; }
+  #custom_html-4 h4 a {
+    color: #00507D; }
 
 #custom_html-4 p {
-  text-align: center;
+  text-align: right;
   font-size: 1.2em;
-  font-weight: 100; }
+  font-weight: 500; }
 
 /*
 *******************MEDICI
 */
 #medici h3 {
-  font-family: "Roboto Slab", serif;
-  color: #2455A5; }
+  font-family: "Lato", sans-serif;
+  color: #00507D; }
 
 #medici h5 {
-  font-family: "Roboto Slab", serif;
-  color: #2455A5;
-  font-weight: 100; }
+  font-family: "Lato", sans-serif;
+  color: #00507D;
+  font-weight: 300; }
 
 #medici2 p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.4em;
   font-weight: 300;
-  color: #2455A5; }
+  color: #00507D; }
 
 #medici2 .uno {
-  border: 1px solid #2455A5; }
+  border: 1px solid #00507D; }
 
 /*
 #card-hover{
@@ -9451,18 +9461,18 @@ ul#menu-izbornik_footer {
   /* IE6-9 */ }
 
 .navbar-dark .navbar-nav .nav-link {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   color: #fff;
   font-weight: bold; }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.6em;
   font-weight: bold;
   /* border-bottom:2px solid white;*/ }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {
-  font-family: "Roboto Slab", serif; }
+  font-family: "Lato", sans-serif; }
 
 /*
 #mega-menu-primary li.mega-menu-item a{
@@ -9491,9 +9501,11 @@ ul#menu-izbornik_footer {
   /* background-color: rgba(75,75,75,0.7);*/
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
+  .hovereffect .overlay a:hover {
+    text-decoration: none; }
 
 .hovereffect:hover .overlay {
-  background-color: rgba(36, 85, 165, 0.5); }
+  background: rgba(0, 80, 125, 0.7); }
 
 .hovereffect img {
   display: block;
@@ -9579,17 +9591,53 @@ ul#menu-izbornik_footer {
 
 #mega-menu-wrap-primary #mega-menu-primary > li#mega-menu-item-220 > a.mega-menu-link {
   /* padding-right:0;*/
-  margin-left: 8em;
+  /* margin-left: 8em;*/
   padding-left: 1em;
   background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/11/face.png);
   background-repeat: no-repeat;
   text-indent: -9999px;
   background-position: center; }
 
+#mega-menu-wrap-primary #mega-menu-primary input {
+  padding: 0 0.5em; }
+
 .navbar-dark .navbar-brand {
   color: #fff;
   position: absolute;
-  top: -8px; }
+  top: -8px;
+  z-index: 10; }
 
 #mega-menu-wrap-primary {
   padding-left: 14.1em; }
+
+li.menu-item.mega-menu-item.trazi {
+  display: none; }
+
+.trazi #searchform {
+  margin-left: 1em; }
+
+.form-control, .wpcf7 input[type=text],
+.wpcf7 input[type=search],
+.wpcf7 input[type=url],
+.wpcf7 input[type=tel],
+.wpcf7 input[type=number],
+.wpcf7 input[type=range],
+.wpcf7 input[type=date],
+.wpcf7 input[type=month],
+.wpcf7 input[type=week],
+.wpcf7 input[type=time],
+.wpcf7 input[type=datetime],
+.wpcf7 input[type=datetime-local],
+.wpcf7 input[type=color],
+.wpcf7 input[type=email],
+.wpcf7 input[type=file],
+.wpcf7 input[type=submit],
+.wpcf7 select,
+.wpcf7 textarea, .wpcf7 .wpcf7-validation-errors {
+  padding: 0; }
+
+.menu {
+  display: inline-block;
+  list-style: none; }
+  .menu li {
+    list-style: none; }

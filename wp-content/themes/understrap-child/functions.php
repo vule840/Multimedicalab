@@ -27,3 +27,25 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+
+/**
+ * Add search box to primary menu
+
+
+
+function wpgood_nav_search($items, $args) {
+    // If this isn't the primary menu, do nothing
+    if( !($args->theme_location == 'primary') ) 
+    return $items;
+    // Otherwise, add search form
+    return $items . '<li>' . get_search_form(false) . '</li>';
+}
+add_filter('wp_nav_menu_items', 'wpgood_nav_search', 10, 2);
+
+ */
+add_filter( 'wp_nav_menu_items','add_search_box', 10, 2 );
+function add_search_box( $items, $args ) {
+$items .= '<li class="menu-item mega-menu-item trazi">' . get_search_form( false ) . '</li>';
+return $items;
+}

@@ -6,7 +6,7 @@
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin-ext" rel="stylesheet');
 
 $boja-gumb:         #29ABE2; //#ff6d5a
 $boja-gumb-hover: 	#2455A5;
@@ -15,8 +15,8 @@ $font-text: 	'Lato', sans-serif;
 $font-boja: 		#666666;
 $font-boja-plava-prozirna:	rgb(41, 171, 226);
 $font-boja-plava-hover: #29ABE2;
-$font-plava-tamno: #2455A5;
+$font-plava-tamno: #00507D;
 $alpha: .6;
 
 $velicina-podnaslov: 2em;
-$velicina-tx: 1.2em;
+$velicina-tx: 1.2em; 

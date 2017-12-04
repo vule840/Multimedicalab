@@ -15,12 +15,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	
 	<div class="<?php echo esc_html( $container ); ?>" id="content">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-9 ml-auto py-4 text-right"><strong>MULTIMEDICA LAB</strong> Srl Viale Gina Roma, 1/a | 31028 Vazzola località Tezze di Piave (TV) | Tel. 0438/28736 | P. Iva: 04458060268 </div>  <div class="col-md-1 py-4 "><p class="search text-right"> Search</p></div>
+ 
+		</div> -->
 
-			
-			 
-		</div>
+		<div class="row text-center">
+				<div class="col-md-10 ml-auto py-4 text-right"><?php
+					if ( function_exists('yoast_breadcrumb') ) {
+					yoast_breadcrumb('
+					<p id="breadcrumbs">','</p>
+					');
+					}
+					?>
+				</div>  		
+			</div>
 		
 		 <div class="header-page text-center">
 			<h1 class="p-5"><?php the_title(); ?> </h1>
