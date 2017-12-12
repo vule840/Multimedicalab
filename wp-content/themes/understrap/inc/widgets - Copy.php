@@ -60,76 +60,8 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 		register_sidebar( array(
-			'name'          => __( 'Check-up', 'understrap' ),
-			'id'            => 'check-up',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-
-		register_sidebar( array(
-			'name'          => __( 'Pazienti', 'understrap' ),
-			'id'            => 'pazienti',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-
-		register_sidebar( array(
-			'name'          => __( 'Aziende', 'understrap' ),
-			'id'            => 'aziende',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-
-		register_sidebar( array(
-			'name'          => __( 'Convenzioni', 'understrap' ),
-			'id'            => 'convenzioni',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-
-		register_sidebar( array(
-			'name'          => __( 'Collaborazioni', 'understrap' ),
-			'id'            => 'collaborazioni',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-
-		register_sidebar( array(
-			'name'          => __( 'Multimedica Lab', 'understrap' ),
-			'id'            => 'multimedica Lab',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-		register_sidebar( array(
-			'name'          => __( 'Staff', 'understrap' ),
-			'id'            => 'staff',
-			'description'   => 'Left sidebar widget area',
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</aside>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		) );
-		register_sidebar( array(
-			'name'          => __( 'Dove Siamo', 'understrap' ),
-			'id'            => 'dove siamo',
+			'name'          => __( 'Left Sidebar', 'understrap' ),
+			'id'            => 'left-sidebar',
 			'description'   => 'Left sidebar widget area',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',

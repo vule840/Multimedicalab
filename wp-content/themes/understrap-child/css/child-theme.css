@@ -9347,6 +9347,28 @@ p {
       top: 12px;
       left: 23px; }
 
+/*
+*******************Left Sidebar
+*/
+#two_columns .widget_nav_menu ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  width: 100%; }
+
+#two_columns .widget_nav_menu a {
+  font-size: 1.3em;
+  border-bottom: 1px solid #00507D;
+  /*margin: 0.5em 0;*/
+  display: block;
+  padding: 0.5em; }
+  #two_columns .widget_nav_menu a:hover {
+    background: #00507D;
+    color: white;
+    text-decoration: none; }
+
 .btn-primary {
   font-size: 2em;
   font-family: "Lato", sans-serif;
