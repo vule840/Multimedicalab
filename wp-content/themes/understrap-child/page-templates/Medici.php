@@ -108,12 +108,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>	
 								
 							
-				<!-- <?php the_field('col1'); ?> -->
+				
 
 			</div>
 			<div class="col-md-6 content-area" id="medici">
 
-				<!-- <?php the_field('col2'); ?> --> 
+				
 				<!-- 1 -->		
 					 <div class="row no-gutters py-3">
 						 	<div class="col-md-3">

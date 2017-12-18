@@ -141,11 +141,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 						 dynamic_sidebar( 'dove-siamo' ); 
 					   
 					} 
+					elseif ( is_page( 'contatti' ) || '21' == $post->post_parent ) {
+						 
+						 dynamic_sidebar( 'contatti' ); 
+					   
+					} 	
 
-
-					 else { 
-					    $bannerimg = 'home.jpg'; // just in case we are at an unclassified page, perhaps the home page
-					}   
+					    
 					?>
 					
 				
@@ -182,13 +184,52 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		</div>
 		
+		<div class="container">
+			
+			<!--   3 GUMBA   -->
+		
+			<div class="row py-5" id="three_buttons">
+					<div class="col col-md-4"><button type="button" class="btn btn-primary">Richiamami</button></div>
+					<div class="col col-md-4"><button type="button" class="btn btn-primary">Prenota un appuntamento</button></div>
+					<div class="col col-md-4"><button type="button" class="btn btn-primary">Preventivo</button></div>
+				</div>	
+		
+		</div>
+			<div class="fluid-contanier">
+								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+									  <div class="carousel-inner">
+									    <div class="carousel-item active">
+									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad1.jpg" alt="First slide">
+									    </div>
+									    <div class="carousel-item">
+									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad2.jpg" alt="Second slide">
+									    </div>
+									   <!-- <div class="carousel-item">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Third slide">
+									    </div> --> 
+									  </div>
+									  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+									    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Previous</span>
+									  </a>
+									  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+									    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Next</span>
+									  </a>
+									</div>
 
-	
+									
+								</div>
 
 	</div>
 
+				
+
+		
+		
 		
 
+	
 	
 
 

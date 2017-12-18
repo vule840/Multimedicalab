@@ -58,22 +58,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 			<div class="row pb-5 no-gutters" id="medici2">
 				
-						<div class="col-md-3">
-							<img class="uno" src="http://localhost/mulimedicalab/wp-content/uploads/2017/11/uno_medici.jpg" alt="">
+					<?php while ( have_posts() ) : the_post(); ?>
 
-						</div>
-						<div class="col-md-9" style="
-		    border-bottom: 1px solid #2455A5;"">
-							<p>Cognome e nome: <strong>Conte Francesca</strong> </p>
-							<p>Data di nascita: <strong>26 / 05 / 1984</strong> </p>
-							<p>Laurea: <strong> Medicina e Chirurgia (Padova 22 / 09 / 2009)</strong></p>
-							<p>Specializzazione: <strong>Medicina dello sport (Padova 21 / 05 / 2015)</strong> </p>
-						</div>
+						<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
+
+					<?php endwhile; // end of the loop. ?>	
+
+					
 			</div>
 			<div class="row">
 				
 
-			<div class="col-md-6 content-area" id="medici">
+<!-- <div class="col-md-6 content-area" id="medici">
 					
 								
 							
@@ -84,7 +80,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php the_field('col2'); ?>
 
-			</div>
+			</div> -->
+			
 
 
 

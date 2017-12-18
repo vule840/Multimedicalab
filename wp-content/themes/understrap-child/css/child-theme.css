@@ -9256,7 +9256,7 @@ p {
 
 #two_columns {
   background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/two_columns.jpg);
-  padding: 5em 0;
+  padding-top: 5em;
   background-size: auto;
   background-size: cover; }
   #two_columns .btn-primary {
@@ -9265,6 +9265,9 @@ p {
     font-weight: bold; }
     #two_columns .btn-primary:hover {
       background: rgba(41, 171, 226, 0.7); }
+  #two_columns #medici2 .col-md-9 ul li {
+    font-size: 1.4em;
+    color: #00507D; }
 
 .home #two_columns p {
   color: #333; }
@@ -9357,6 +9360,10 @@ p {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
   width: 100%; }
+  #two_columns .widget_nav_menu ul li.current-menu-item a {
+    background: #00507D;
+    color: white;
+    text-decoration: none; }
 
 #two_columns .widget_nav_menu a {
   font-size: 1.3em;
@@ -9663,3 +9670,16 @@ li.menu-item.mega-menu-item.trazi {
   list-style: none; }
   .menu li {
     list-style: none; }
+
+.col-md-12 ul li {
+  font-size: 1.2em; }
+
+.col-md-8 ul li {
+  font-size: 1.2em; }
+
+#accordion .card {
+  border: none;
+  background: none; }
+  #accordion .card .card-header {
+    padding: 0rem 1.25rem;
+    border-bottom: none; }

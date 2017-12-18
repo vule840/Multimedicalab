@@ -49,3 +49,92 @@ function add_search_box( $items, $args ) {
 $items .= '<li class="menu-item mega-menu-item trazi">' . get_search_form( false ) . '</li>';
 return $items;
 }
+
+
+register_sidebar( array(
+            'name'          => __( 'Check-up', 'understrap' ),
+            'id'            => 'check-up',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside data-spy="affix" data-offset-top="205" id="%1$s" class="top fixedsticky widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Pazienti', 'understrap' ),
+            'id'            => 'pazienti',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Aziende', 'understrap' ),
+            'id'            => 'aziende',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3  class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Convenzioni', 'understrap' ),
+            'id'            => 'convenzioni',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Collaborazioni', 'understrap' ),
+            'id'            => 'collaborazioni',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Multimedica Lab', 'understrap' ),
+            'id'            => 'multimedica Lab',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+        register_sidebar( array(
+            'name'          => __( 'Staff', 'understrap' ),
+            'id'            => 'staff',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+        register_sidebar( array(
+            'name'          => __( 'Dove Siamo', 'understrap' ),
+            'id'            => 'dove siamo',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );
+
+        register_sidebar( array(
+            'name'          => __( 'Contatti', 'understrap' ),
+            'id'            => 'contatti',
+            'description'   => 'Left sidebar widget area',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</aside>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        ) );

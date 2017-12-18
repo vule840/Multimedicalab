@@ -155,14 +155,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-6 content-area" id="primary">
 
 					
-					<p>Il Laboratorio Privato di Analisi Cliniche e Poliambulatorio "Multimedica Lab" è stato autorizzato dal Comune di Vazzola il 1° Agosto 2011.</p>
-					<p>L'originaria struttura è stata opportunamente ristrutturata con un progetto volto a razionalizzare spazi e percorsi, secondo le logiche della più moderna ingegneria sanitaria riferita ai laboratori di analisi e ai poliambulatori.</p>
+					<p>Multimedica Lab, Laboratorio Privato di Analisi Cliniche e Poliambulatorio, è stato fondato nel 2011 su iniziativa della dott.ssa Angela Iudici, titolare della Farmacia di Tezze di Piave.</p>
+					<p>Attualmente Multimedica Lab è una struttura indipendente che prosegue l'idea originaria: realizzare un progetto di sanità privata basata sull'attenzione alle necessità della popolazione locale e sullo sviluppo di collaborazioni con centri e laboratori specializzati.</p>
 
 				</div>
 				<div class="col-md-6 content-area" id="primary">
 
-					<p>La Direzione Sanitaria e' affidata al dott. Alberto Cescato, Medico Chirurgo, mentre la Direzione Tecnica del Labora torio Analisi viene ricoperta dalla dott. Elisabetta Ricci, Biologo Specialista in Biochimica Clinica.</p>
-					<p>L’Organizzazione garantisce la Qualita’ di tutti i servizi erogati, avvalendosi di personale e collaboratori molto qualiﬁcati.</p>
+					<p>Il nostro obiettivo è anticipare le esigenze sanitarie crescenti dei pazienti offrendo servizi di base e percorsi di alta specialità. </p>
+
+					<!-- <p>L’Organizzazione garantisce la Qualita’ di tutti i servizi erogati, avvalendosi di personale e collaboratori molto qualiﬁcati.</p> -->
 
 				</div> 
 
@@ -283,12 +284,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 									  <div class="carousel-inner">
 									    <div class="carousel-item active">
-									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="First slide">
+									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad1.jpg" alt="First slide">
 									    </div>
 									    <div class="carousel-item">
 									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Second slide">
 									    </div>
-									    <div class="carousel-item">
+									     <div class="carousel-item">
 									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Third slide">
 									    </div>
 									  </div>
