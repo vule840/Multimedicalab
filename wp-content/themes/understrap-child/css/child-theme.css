@@ -9259,6 +9259,8 @@ p {
   padding-top: 5em;
   background-size: auto;
   background-size: cover; }
+  #two_columns p {
+    text-align: left; }
   #two_columns .btn-primary {
     background: rgba(0, 80, 125, 0.7);
     border: none;
@@ -9327,6 +9329,9 @@ p {
     border: 3px solid #29ABE2;
     padding: 1em;
     margin: 1em; }
+  #ikonice_hover a {
+    color: white;
+    text-decoration: none; }
   #ikonice_hover .card {
     background: transparent;
     border: 3px solid #29ABE2;
@@ -9683,3 +9688,20 @@ li.menu-item.mega-menu-item.trazi {
   #accordion .card .card-header {
     padding: 0rem 1.25rem;
     border-bottom: none; }
+
+.sps {
+  position: fixed; }
+
+.sps--abv {
+  background-color: transparent;
+  color: #000; }
+
+.sps--blw {
+  background-color: #333;
+  color: #fff; }
+
+/*.fixed {
+  position:fixed;
+  top:0;
+  z-index:99999;
+}*/

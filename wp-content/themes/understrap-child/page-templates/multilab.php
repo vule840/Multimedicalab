@@ -156,11 +156,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					
 					<p>Multimedica Lab, Laboratorio Privato di Analisi Cliniche e Poliambulatorio, è stato fondato nel 2011 su iniziativa della dott.ssa Angela Iudici, titolare della Farmacia di Tezze di Piave.</p>
-					<p>Attualmente Multimedica Lab è una struttura indipendente che prosegue l'idea originaria: realizzare un progetto di sanità privata basata sull'attenzione alle necessità della popolazione locale e sullo sviluppo di collaborazioni con centri e laboratori specializzati.</p>
+					<p>Attualmente Multimedica Lab è una struttura indipendente che prosegue l'idea originaria: realizzare un progetto di sanità  </p>
 
 				</div>
 				<div class="col-md-6 content-area" id="primary">
-
+					
+					<p>privata basata sull'attenzione alle necessità della popolazione locale e sullo sviluppo di collaborazioni con centri e laboratori specializzati.</p>
 					<p>Il nostro obiettivo è anticipare le esigenze sanitarie crescenti dei pazienti offrendo servizi di base e percorsi di alta specialità. </p>
 
 					<!-- <p>L’Organizzazione garantisce la Qualita’ di tutti i servizi erogati, avvalendosi di personale e collaboratori molto qualiﬁcati.</p> -->
@@ -196,59 +197,70 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container">
 		<div class="row karte">
 				<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						<a href="../mulimedicalab/chi-siamo/staff/"><div class="card text-center">
 							<i class="fa fa-user-md" aria-hidden="true"></i>
 							<h3>Staff</h3>		
-						</div>
+						</div></a>
 					</div>
 				 <div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						
+						<a href="../mulimedicalab/servizi/check-up/"><div class="card text-center">
 							<i class="fa fa-medkit" aria-hidden="true"></i>
 							<!-- <img src="wp-content/uploads/2017/11/2.svg" alt=""> --> 
 							<h3>Check-up</h3>		
-						</div>
+						</div></a>
 					</div>
 					<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						<a href="../mulimedicalab/chi-siamo/dove-siamo/"><div class="card text-center">
 							<i class="fa fa-stethoscope" aria-hidden="true"></i>
 							 <h3 class="card_sredina">Dove Siamo</h3>  
-						</div>
+						</div></a>
+						
 					</div>
 					<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						
+						<a href="../mulimedicalab/servizi/esami-frequenti/"><div class="card text-center">
 							<i class="fa fa-heartbeat" aria-hidden="true"></i>
 							<h3 class="card_sredina">Esami Frequenti</h3>
-						</div>		   
+						</div>	</a>	   
 					</div>
 					
 							
 			</div>
 			<div class="row karte">
 				<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						<a href="../mulimedicalab/servizi/esami-per-procreazione/"><div class="card text-center">
 							<img src="wp-content/uploads/2017/11/3.svg" alt="">
 							<h3>Esami per Procreazione...</h3>
 								    
-						</div>
+						</div></a>
+						
 					</div>
 				 <div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						
+						<a href="../mulimedicalab/servizi/harmony-test-e-prenatalsafe/">
+							<div class="card text-center">
 							<img src="wp-content/uploads/2017/11/6.svg" alt="">
 							<h3>Harmony Test e PrenatalSafe</h3>
 
-						</div>
+						</div></a>
+						
 					</div>
 					<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						<a href="../mulimedicalab/servizi/iistruzioni-per-le-analisi/">
+							<div class="card text-center">
 							<img src="wp-content/uploads/2017/11/4.svg" alt="">
 							 <h3 class="card_sredina">IIstruzioni per le analisi</h3>  
-						</div>
+						</div></a>
+						
 					</div>
 					<div class="col-sm-6 col-xl-3">
-						<div class="card text-center">
+						
+						<a href="../mulimedicalab/servizi/visite-specialistiche/">
+							<div class="card text-center">
 							<img src="wp-content/uploads/2017/11/5.svg" alt="">
 							<h3 class="card_sredina">Visite <br> specialistiche</h3>
-						</div>		   
+						</div>	</a>	   
 					</div>
 					
 							
@@ -284,7 +296,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 									  <div class="carousel-inner">
 									    <div class="carousel-item active">
-									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad1.jpg" alt="First slide">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="First slide">
 									    </div>
 									    <div class="carousel-item">
 									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Second slide">

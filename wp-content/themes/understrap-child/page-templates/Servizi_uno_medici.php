@@ -56,7 +56,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="container">
 			
-			<div class="row pb-5 no-gutters" id="medici2">
+			<div class="row pb-2" id="medici2">
 				
 					<?php while ( have_posts() ) : the_post(); ?>
 

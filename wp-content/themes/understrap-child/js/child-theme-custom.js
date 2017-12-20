@@ -12,17 +12,31 @@ jQuery(document).ready(function($) {
 */
 
 
-//Main navigation scroll spy for shadow
-$(window).scroll(function() {
+/*$(window).scroll(function() {
   var y = $(window).scrollTop();
   if (y > 0) {
   		console.log('true');
-    //$("#header").addClass('--not-top');
+   $(".widget_nav_menu").addClass('sps');
   } else {
   	console.log('false');
-    //$("#header").removeClass('--not-top');
+    $(".widget_nav_menu").removeClass('sps');
   }
-});
+});*/
+
+
+/*$("#nav_menu-8").stick_in_parent();*/
+
+/*var top = $('.menu').offset().top;
+  $(window).scroll(function (event) {
+    var y = $(this).scrollTop();
+    if (y >= top)
+      $('.menu').addClass('fixed');
+    else
+      $('.menu').removeClass('fixed');
+    $('.menu').width($('.menu').parent().width());
+  });
+*/
+
 		
 });
 

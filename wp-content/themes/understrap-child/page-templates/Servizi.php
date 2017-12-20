@@ -49,6 +49,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 				
 	 **********************  -->
+
+
+	<!-- SERVIZI -->
+
 	 <?php if ( is_page('servizi') ) : ?>
 	<div class="fluid-contanier" id="ikonice_hover">
 
@@ -91,6 +95,51 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<?php endif; ?>
 
+
+	<!-- CHI SIAMO -->
+
+	 <?php if ( is_page('chi-siamo') ) : ?>
+	<div class="fluid-contanier" id="ikonice_hover">
+
+		<div class="container">
+			<div class="row karte">
+					<div class="col-sm-6 col-xl-3">
+							<div class="card text-center">
+								<i class="fa fa-handshake-o" aria-hidden="true"></i>
+								<h3>Collaborazioni</h3>		
+							</div>
+						</div>
+					 <div class="col-sm-6 col-xl-3">
+							<div class="card text-center">
+								<i class="fa fa-medkit" aria-hidden="true"></i>
+								<!-- <img src="wp-content/uploads/2017/11/2.svg" alt=""> --> 
+								<h3>Multimedica Lab</h3>		
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-3">
+							<div class="card text-center">
+								<i class="fa fa-heartbeat" aria-hidden="true"></i>
+								 <h3 class="card_sredina">Staff</h3>  
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-3">
+							<div class="card text-center">
+								<i class="fa fa-location-arrow" aria-hidden="true"></i>
+								<h3 class="card_sredina">Dove Siamo</h3>
+							</div>		   
+						</div>
+						
+								
+				</div>
+			
+			</div>
+
+
+		
+		</div>
+
+	<?php endif; ?>
+
 	<!-- ******************
 
 			2 COLUMNS TX, BG IMAGE
@@ -105,9 +154,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		
 
 			<div class="row">
-				
+				<div class="col-md-4">
 				<?php
-					if ( is_page( 'check-up' ) || '72' == $post->post_parent ) {    
+					if ( is_page( 'check-up' ) || is_page( 'servizi' ) || '72' == $post->post_parent ) {    
 					    // the page is "About", or the parent of the page is "About"
  
 					    	dynamic_sidebar( 'check-up' );		
@@ -123,7 +172,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						 
 						 dynamic_sidebar( 'convenzioni' ); 
 					   
-					} elseif ( is_page( 'collaborazioni' ) || '38' == $post->post_parent ) {
+					} elseif ( is_page( 'collaborazioni' ) || is_page( 'chi-siamo' ) || '38' == $post->post_parent ) {
 						 
 						 dynamic_sidebar( 'collaborazioni' ); 
 					   
@@ -149,7 +198,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					    
 					?>
-					
+					</div> 
 				
 				<div class="col-md-8">
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -195,31 +244,32 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>	
 		
 		</div>
-			<div class="fluid-contanier">
-								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-									  <div class="carousel-inner">
-									    <div class="carousel-item active">
-									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad1.jpg" alt="First slide">
-									    </div>
-									    <div class="carousel-item">
-									      <img class="d-block w-100" src="http://localhost/mulimedicalab/wp-content/uploads/2017/12/ad2.jpg" alt="Second slide">
-									    </div>
-									   <!-- <div class="carousel-item">
-									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Third slide">
-									    </div> --> 
-									  </div>
-									  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-									    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-									    <span class="sr-only">Previous</span>
-									  </a>
-									  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-									    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-									    <span class="sr-only">Next</span>
-									  </a>
-									</div>
-
-									
-								</div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad2.jpg" alt="First slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad1.jpg" alt="Second slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad1.jpg" alt="Third slide">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
 
 	</div>
 

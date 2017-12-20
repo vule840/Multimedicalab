@@ -117,7 +117,10 @@ p{
 	background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/two_columns.jpg);
 	padding-top: 5em;
 	background-size: auto;
-    background-size: cover;  
+    background-size: cover; 
+    p{
+      text-align: left;
+    }
     .btn-primary{
     background: rgba( $font-plava-tamno, .7 );
     border:none;
@@ -214,6 +217,10 @@ p{
     	border: 3px solid #29ABE2;
     	padding:1em;
         margin: 1em;
+    }
+    a{
+      color: white;
+      text-decoration: none;
     }
     .card{
         background:transparent;
@@ -640,3 +647,28 @@ display:none;
     }
   }
 }
+
+//sticky
+
+
+.sps {
+ 
+  position: fixed;
+  
+}
+
+.sps--abv {
+  background-color: transparent;
+  color: #000;
+}
+
+.sps--blw {
+  background-color: #333;
+  color: #fff;
+}
+
+/*.fixed {
+  position:fixed;
+  top:0;
+  z-index:99999;
+}*/
