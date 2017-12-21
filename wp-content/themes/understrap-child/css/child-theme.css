@@ -9157,6 +9157,9 @@ h1.naslovna {
   font-weight: 300;
   color: #00507D; }
 
+p {
+  color: #666666; }
+
 .navbar {
   padding: 1em 0; }
 
@@ -9231,6 +9234,12 @@ b, strong {
   padding: 0em 0;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 3;
+  position: relative;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b75bb', endColorstr='#1b75bb',GradientType=1 );
+  -webkit-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
   /*filter: brightness(50%);*/ }
 
 .home #cover {
@@ -9256,8 +9265,10 @@ p {
 
 #two_columns {
   background: url(http://localhost/mulimedicalab/wp-content/uploads/2017/10/two_columns.jpg);
-  padding-top: 5em;
-  background-size: auto;
+  padding-top: 3em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover; }
   #two_columns p {
     text-align: left; }
@@ -9272,7 +9283,7 @@ p {
     color: #00507D; }
 
 .home #two_columns p {
-  color: #333; }
+  color: #666666; }
 
 #three_buttons {
   text-align: center; }
@@ -9283,6 +9294,11 @@ p {
     font-size: 1.5em;
     margin: 1em 0;
     font-family: "Lato", sans-serif; }
+    #three_buttons .btn-primary a {
+      color: #fff;
+      background: none; }
+      #three_buttons .btn-primary a:hover {
+        text-decoration: none; }
     #three_buttons .btn-primary:hover {
       background: rgba(41, 171, 226, 0.7); }
 
@@ -9391,15 +9407,24 @@ p {
 *******************FOOTER
 */
 #wrapper-footer {
-  background: #666;
-  color: #fff; }
+  background: rgba(0, 80, 125, 0.7);
+  color: #fff;
+  /* -webkit-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);*/ }
   #wrapper-footer a {
     color: #fff;
     font-weight: bold; }
 
 #wrapper-footer-full {
   padding: 3em 0;
-  background: #fff; }
+  background: #fff;
+  z-index: 10;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b75bb', endColorstr='#1b75bb',GradientType=1 );
+  -webkit-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  position: relative; }
 
 ul#menu-izbornik_footer {
   list-style-type: none; }
@@ -9492,7 +9517,8 @@ ul#menu-izbornik_footer {
   background: linear-gradient(to right, #1b75bb 1%, #00adee 50%, #1b75bb 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b75bb', endColorstr='#1b75bb',GradientType=1 );
-  /* IE6-9 */ }
+  /* IE6-9 */
+  z-index: 10; }
 
 .navbar-dark .navbar-nav .nav-link {
   font-family: "Lato", sans-serif;
@@ -9700,8 +9726,46 @@ li.menu-item.mega-menu-item.trazi {
   background-color: #333;
   color: #fff; }
 
+.wpcf7 input {
+  padding: 0.5em; }
+
+.form-control, .wpcf7 input[type=text],
+.wpcf7 input[type=search],
+.wpcf7 input[type=url],
+.wpcf7 input[type=tel],
+.wpcf7 input[type=number],
+.wpcf7 input[type=range],
+.wpcf7 input[type=date],
+.wpcf7 input[type=month],
+.wpcf7 input[type=week],
+.wpcf7 input[type=time],
+.wpcf7 input[type=datetime],
+.wpcf7 input[type=datetime-local],
+.wpcf7 input[type=color],
+.wpcf7 input[type=email],
+.wpcf7 input[type=file],
+.wpcf7 input[type=submit],
+.wpcf7 select,
+.wpcf7 textarea, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=text], .wpcf7 input[type=search], .wpcf7 input[type=url], .wpcf7 input[type=tel], .wpcf7 input[type=number], .wpcf7 input[type=range], .wpcf7 input[type=date], .wpcf7 input[type=month], .wpcf7 input[type=week], .wpcf7 input[type=time], .wpcf7 input[type=datetime], .wpcf7 input[type=datetime-local], .wpcf7 input[type=color], .wpcf7 input[type=email], .wpcf7 input[type=file], .wpcf7 input[type=submit], .wpcf7 select, .wpcf7 textarea, .wpcf7 .wpcf7-validation-errors {
+  padding: 0.5em;
+  color: #afafaf; }
+
 /*.fixed {
   position:fixed;
   top:0;
   z-index:99999;
 }*/
+.bg-dark {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b75bb', endColorstr='#1b75bb',GradientType=1 );
+  -webkit-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 3px -3px 16px 2px rgba(0, 0, 0, 0.35); }
+
+.wpcf7 input[type=submit] {
+  border-color: rgba(0, 80, 125, 0.7);
+  color: rgba(0, 80, 125, 0.7); }
+
+.wpcf7 input[type=submit]:hover {
+  color: #fff;
+  background-color: rgba(0, 80, 125, 0.7);
+  border-color: rgba(0, 80, 125, 0.7); }

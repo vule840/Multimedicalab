@@ -37,6 +37,17 @@ jQuery(document).ready(function($) {
   });
 */
 
+  /*  $('.1_plav')
+        .mouseover(function () {
+        	console.log('sdfs');
+        $(this).attr("src", "wp-content/uploads/2017/11/6.svg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "wp-content/uploads/2017/12/2_plav.svg");
+    });*/
+
+
+
 		
 });
 

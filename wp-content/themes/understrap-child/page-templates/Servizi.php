@@ -104,29 +104,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row karte">
 					<div class="col-sm-6 col-xl-3">
-							<div class="card text-center">
+							
+							<a href="../chi-siamo/collaborazioni/"><div class="card text-center">
 								<i class="fa fa-handshake-o" aria-hidden="true"></i>
 								<h3>Collaborazioni</h3>		
-							</div>
+							</div></a>
 						</div>
 					 <div class="col-sm-6 col-xl-3">
-							<div class="card text-center">
+							<a href="../chi-siamo/multimedica-lab/"><div class="card text-center">
 								<i class="fa fa-medkit" aria-hidden="true"></i>
 								<!-- <img src="wp-content/uploads/2017/11/2.svg" alt=""> --> 
 								<h3>Multimedica Lab</h3>		
-							</div>
+							</div></a>
+							
 						</div>
 						<div class="col-sm-6 col-xl-3">
-							<div class="card text-center">
-								<i class="fa fa-heartbeat" aria-hidden="true"></i>
+							<a href="../chi-siamo/multimedica-lab/"><div class="card text-center">
+								<i class="fa fa-user-md" aria-hidden="true"></i>
 								 <h3 class="card_sredina">Staff</h3>  
-							</div>
+							</div></a>
+							
 						</div>
 						<div class="col-sm-6 col-xl-3">
-							<div class="card text-center">
+							<a href="../chi-siamo/dove-siamo/">
+								<div class="card text-center">
 								<i class="fa fa-location-arrow" aria-hidden="true"></i>
 								<h3 class="card_sredina">Dove Siamo</h3>
-							</div>		   
+							</div></a>
+									   
 						</div>
 						
 								
@@ -239,42 +244,45 @@ $container = get_theme_mod( 'understrap_container_type' );
 		
 			<div class="row py-5" id="three_buttons">
 					<div class="col col-md-4"><button type="button" class="btn btn-primary">Richiamami</button></div>
-					<div class="col col-md-4"><button type="button" class="btn btn-primary">Prenota un appuntamento</button></div>
+					<div class="col col-md-4"><button type="button" class="btn btn-primary"><a href="../contatti/">Prenota un appuntamento</a> </button></div>
 					<div class="col col-md-4"><button type="button" class="btn btn-primary">Preventivo</button></div>
 				</div>	
 		
 		</div>
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad2.jpg" alt="First slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad1.jpg" alt="Second slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="../wp-content/uploads/2017/12/ad1.jpg" alt="Third slide">
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
+		
 
 	</div>
 
-				
 
+	<div class="container-fluid ">
+		<div class="row no-gutter">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+									  <div class="carousel-inner">
+									    <div class="carousel-item active">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="First slide">
+									    </div>
+									    <div class="carousel-item">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="Second slide">
+									    </div>
+									     <div class="carousel-item">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="Third slide">
+									    </div>
+									  </div>
+									  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+									    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Previous</span>
+									  </a>
+									  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+									    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Next</span>
+									  </a>
+					</div>
+
+		</div>
+	
+
+	</div>				
+		
 		
 		
 		

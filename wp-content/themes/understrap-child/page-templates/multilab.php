@@ -230,7 +230,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="row karte">
 				<div class="col-sm-6 col-xl-3">
 						<a href="../mulimedicalab/servizi/esami-per-procreazione/"><div class="card text-center">
-							<img src="wp-content/uploads/2017/11/3.svg" alt="">
+							<img class="1_plav" src="wp-content/uploads/2017/11/3.svg" alt="">
 							<h3>Esami per Procreazione...</h3>
 								    
 						</div></a>
@@ -240,7 +240,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						
 						<a href="../mulimedicalab/servizi/harmony-test-e-prenatalsafe/">
 							<div class="card text-center">
-							<img src="wp-content/uploads/2017/11/6.svg" alt="">
+							<img class="2_plav" src="wp-content/uploads/2017/11/6.svg" alt="">
 							<h3>Harmony Test e PrenatalSafe</h3>
 
 						</div></a>
@@ -249,7 +249,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-sm-6 col-xl-3">
 						<a href="../mulimedicalab/servizi/iistruzioni-per-le-analisi/">
 							<div class="card text-center">
-							<img src="wp-content/uploads/2017/11/4.svg" alt="">
+							<img class="3_plav" src="wp-content/uploads/2017/11/4.svg" alt="">
 							 <h3 class="card_sredina">IIstruzioni per le analisi</h3>  
 						</div></a>
 						
@@ -258,7 +258,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						
 						<a href="../mulimedicalab/servizi/visite-specialistiche/">
 							<div class="card text-center">
-							<img src="wp-content/uploads/2017/11/5.svg" alt="">
+							<img class="4_plav" src="wp-content/uploads/2017/11/5.svg" alt="">
 							<h3 class="card_sredina">Visite <br> specialistiche</h3>
 						</div>	</a>	   
 					</div>
@@ -296,13 +296,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 									  <div class="carousel-inner">
 									    <div class="carousel-item active">
-									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="First slide">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="First slide">
 									    </div>
 									    <div class="carousel-item">
-									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Second slide">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="Second slide">
 									    </div>
 									     <div class="carousel-item">
-									      <img class="d-block w-100" src="http://via.placeholder.com/1920x300" alt="Third slide">
+									      <img class="d-block w-100" src="http://via.placeholder.com/1920x200" alt="Third slide">
 									    </div>
 									  </div>
 									  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
